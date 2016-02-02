@@ -1,4 +1,4 @@
 name: NoSpecTP
-main: com.aoki.NoSpecTP.NoSpecTP
+main: that.which.creates.NoSpecTP.NoSpecTP
 version: 1
 depend: [ProtocolLib]
