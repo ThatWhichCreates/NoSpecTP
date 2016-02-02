@@ -1,4 +1,4 @@
-package com.aoki.NoSpecTP;
+package that.which.creates.NoSpecTP;
 
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -23,7 +23,7 @@ public class NoSpecTP extends JavaPlugin {
   			        		PacketType.Play.Client.SPECTATE) {
   			        	if(event.getPlayer().hasPermission("nospec.bypass") == false){
   			        		event.setCancelled(true);
-  	  			            event.getPlayer().sendMessage(ChatColor.GRAY + "[" + ChatColor.RED+ "SERVER, BITCH" + ChatColor.GRAY+ "]" + ChatColor.DARK_RED + " YEA TOO BAD. I THOUGHT OF THAT FIRST");
+  	  			            event.getPlayer().sendMessage(ChatColor.GRAY + "[" + ChatColor.RED+ "SERVER" + ChatColor.GRAY+ "]" + ChatColor.DARK_RED + " Feature disabled.");
   			        	}
   			        }
   			    }
