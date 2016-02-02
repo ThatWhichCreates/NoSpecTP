@@ -1,0 +1,4 @@
+name: NoSpecTP
+main: com.aoki.NoSpecTP.NoSpecTP
+version: 1
+depend: [ProtocolLib]
